@@ -49,17 +49,12 @@
         .avatar {
             width: 120px;
             height: 120px;
-            background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #a855f7 100%);
             border-radius: 50%;
             margin: 0 auto 32px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 48px;
-            font-weight: 700;
-            color: white;
+            object-fit: cover;
             box-shadow: 0 20px 50px rgba(99, 102, 241, 0.3);
             animation: pulse 3s ease-in-out infinite;
+            border: 3px solid rgba(99, 102, 241, 0.5);
         }
 
         @keyframes pulse {
@@ -290,7 +285,7 @@
 <body>
     <div class="container">
         <header class="hero">
-            <div class="avatar">TB</div>
+            <img class="avatar" src="https://media.licdn.com/dms/image/v2/D5603AQFl0H-aJOiyHg/profile-displayphoto-scale_200_200/B56ZgUitf.IAAY-/0/1752691300782?e=2147483647&v=beta&t=08neH99J1rEuWCOrN19Gnj4WfrzT8ECjWSAK_PGaVJU" alt="Turner Bubeck">
             <h1>Turner Bubeck</h1>
             <p class="tagline">Building the future of construction technology</p>
             <div class="badge-container">
